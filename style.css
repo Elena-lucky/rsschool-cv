@@ -1,0 +1,9 @@
+h1 {
+    color: blueviolet;
+    text-align: left;
+    border: 3 px;
+}
+h2 {
+    color: blue;
+    font-style: italic;
+}
