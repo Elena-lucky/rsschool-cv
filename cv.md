@@ -55,6 +55,7 @@ function learnJavaScript() {
 
 ### Education:
 * __BSU__ (filological faculty)
+* __Coursera__ (HTML, CSS and Javascript for web-developers)
 * __RS School__ (in progress)
 
 *******
