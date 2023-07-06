@@ -23,7 +23,7 @@ body {
 
 .main-container {
   text-align: right;
-  border: 2px solid rgb(234, 243, 248);
+  border: 2px solid #eaf3f8;
 }
 
 .nav-list {
@@ -31,22 +31,22 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    background-color:rgb(234, 243, 248);
+    background-color:#eaf3f8;
   
 }
 
 .nav-link {
     padding: 0 20px;
+    font-size: 20px;
     line-height: 50px;
     color: darkgrey;
-    font-size: 20px;
     text-decoration: none;
     transition: .3s;
   }
 
   a {
-    text-decoration: none;
     color: #829985;
+    text-decoration: none;
     transition: color 0.5s;
   }
   
@@ -77,13 +77,12 @@ body {
 #profile {
   justify-content: center; 
   width: 100%;
-  text-align: center;
-  text-decoration: none;
-  border: 5px solid white;
   margin-bottom: 10px;
   font-size: 17px;
   letter-spacing: 3px;
-  color:rgb(89, 107, 117);
+  text-align: center;
+  text-decoration: none;
+  color:#596b75;
 }
 
 .section-title {
@@ -92,7 +91,7 @@ body {
   text-transform: uppercase;
   text-decoration: underline;
   letter-spacing: 5px;
-  color: rgb(89, 107, 117);
+  color: #596b75;
 }
 
 .main-container {
@@ -102,8 +101,8 @@ body {
 
 .section {
   width: 50%;
-  text-align: left;
   padding: 30px;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
@@ -118,5 +117,5 @@ body {
   align-items: center;
   margin-left: 52px;
   margin-right: 52px;
-  background-color: rgb(234, 243, 248);
+  background-color: #eaf3f8;
 }
