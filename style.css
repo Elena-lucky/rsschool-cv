@@ -4,7 +4,7 @@
 
 body {
     min-height: 100vh;
-    margin: 0; 
+    margin: 0 20px; 
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
+    color: #18042b;
 }
 
 .container {
@@ -23,6 +23,7 @@ body {
 
 .main-container {
   text-align: right;
+  border: 2px solid rgb(234, 243, 248);
 }
 
 .nav-list {
@@ -31,7 +32,7 @@ body {
     align-items: center;
     list-style: none;
     background-color:rgb(234, 243, 248);
-    transition: .3s;
+  
 }
 
 .nav-link {
@@ -40,6 +41,18 @@ body {
     color: darkgrey;
     font-size: 20px;
     text-decoration: none;
+    transition: .3s;
+  }
+
+  a {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+  }
+  
+  a:hover {
+    color: #330c58;
+    text-decoration: underline;
   }
 
   .section-item a {
@@ -55,19 +68,29 @@ body {
     scroll-behavior: smooth; 
   }
 
-.leftimg {
+.profile-logo {
   float: left;
-  margin: 7px 7px 7px 0;
+  margin-right: 15px;
+  margin-left: 100px;
 }
 
 #profile {
   justify-content: center; 
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  border: 5px solid white;
+  margin-bottom: 10px;
+  font-size: 17px;
+  letter-spacing: 3px;
+  color:rgb(89, 107, 117);
 }
 
 .section-title {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
+  text-decoration: underline;
   letter-spacing: 5px;
   color: rgb(89, 107, 117);
 }
@@ -80,8 +103,7 @@ body {
 .section {
   width: 50%;
   text-align: left;
-  background-color: #e4f5e6;
-  border: white 5px;
+  padding: 30px;
 }
 
 @media (max-width: 768px) {
@@ -91,5 +113,10 @@ body {
 }
 
 .footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 52px;
+  margin-right: 52px;
   background-color: rgb(234, 243, 248);
 }
